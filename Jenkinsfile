@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/dmamanipar/ProyectosTS.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/dmamanipar/ProyectosTS2024-C2.git'
                 }
             }
         }
