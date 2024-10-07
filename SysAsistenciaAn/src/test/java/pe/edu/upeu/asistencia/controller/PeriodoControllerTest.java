@@ -61,5 +61,10 @@ public class PeriodoControllerTest {
         Assertions.assertEquals(periodos,lp.getBody());
     }
 
+    @Test
+    public void crearPeriodo() {
+
+    }
+
 
 }
